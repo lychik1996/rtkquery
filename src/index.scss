@@ -1,0 +1,57 @@
+form{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+
+}
+form input, form button{
+    width: 200px;
+}
+body{
+    margin: 20px;
+    margin-left: 50px;
+}
+.favorite{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid green;
+    width: 100px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+    
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid black;
+
+    li{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        width: 200px;
+        border: 1px solid black;
+        justify-content: space-around;
+        height: 200px;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        
+    }
+}
